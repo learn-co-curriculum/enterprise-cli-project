@@ -19,6 +19,7 @@ Project reviews are focused on preparing you for [technical interviews](https://
 During your project review, be prepared to:
 
 1. Explain your code from execution point to exit point. You will also be asked questions that test your knowledge of Ruby fundamentals. Use the best technical vocabulary you can. We’ll help you with the words you can’t remember or those you find difficult to pronounce. 20-25 minutes
+
 2. Refactor code. 10-20 minutes
 
 If any requirements are missing or if significant gaps in understanding are found, be prepared to do one or all of the following:
@@ -36,13 +37,17 @@ What won't happen:
 ## <a id="requirements">Project Requirements</a>
 
 1. Provide a [CLI](https://github.com/learn-co-curriculum/cli-interfaces-readme#program-loop)
+
 2. Your [CLI application](https://github.com/learn-co-curriculum/ruby-cli-applications-readme) must provide access to data from a web page.
+
 3. The data provided must go at least one level deep. A "level" is where a user can make a choice and then get detailed information about their choice. Some examples are below:
     - Movies opening soon - Enter your zip code and receive a list of movies and their details.
     - Libraries near you -  Enter your zip code and receive a list of libraries and their details.
     - Programming meetups near you - Choose from an events list and receive details.
     - News reader - List articles and read an article of your choosing.
+
 4. Your CLI application should not be too similar to the Ruby final projects (Music Library CLI, Tic-Tac-Toe with AI, Student Scraper). Also, please refrain from using [Kickstarter](https://github.com/learn-co-curriculum/scraping-kickstarter) as that was used for the scraping 'code along'.
+
 5. Use good OO design patterns. You should be creating a collection of objects, not hashes, to store your data. *Pro Tip: Avoid scraping data more than once per web page - utilize objects you have already created. It will speed up your program!*
 
 [World's Best Restaurants](https://github.com/cjbrock/worlds-best-restaurants-cli-gem) was built by a Learn student, is maintained by Flatiron School staff, meets these requirements, and is well coded. Take the time to clone, run, and look through the code in detail - it'll really help.
